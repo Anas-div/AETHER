@@ -1,0 +1,109 @@
+@media (max-width:1200px) {
+    /* ============================== leadership start ========================= */
+    .about-cards {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ============================== leadership end ========================= */
+    /* ============================== RECOGNITION start ========================= */
+    .reco-cards {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ============================== RECOGNITION end ========================= */
+
+}
+
+
+@media (max-width:940px) {
+    /* ============================== leadership start ========================= */
+    .about-cards {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ============================== leadership end ========================= */
+    
+}
+
+@media (max-width:860px) {
+    /* ============================== RECOGNITION start ========================= */
+    .reco-cards {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 450px;
+    }
+    /* ============================== RECOGNITION end ========================= */
+}
+
+@media (max-width:660px) {
+    /* ============================== leadership start ========================= */
+    .about-cards {
+        grid-template-columns: 1fr;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ============================== leadership end ========================= */
+    /* ============================== EVOLUTION start ========================= */
+    .evolution .timeline {
+        max-width: 450px;
+    }
+
+
+    .timeline .timeline-title {
+        font-family: var(--font-display);
+        font-size: 1rem;
+    }
+
+    .evolution .timeline .timeline-item > p:nth-child(4) {
+        font-size: 10px;
+    }
+
+    /* ============================== EVOLUTION end ========================= */
+
+}
+
+@media (max-width:575px) {
+    /* ============================== RECOGNITION start ========================= */
+    .reco-cards {
+        grid-template-columns: 1fr;
+        max-width: 250px;
+    }
+    /* ============================== RECOGNITION end ========================= */
+    /* ============================== MANIFESTO start ========================= */
+    .manifesto .container > div p:nth-child(3) {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .manifesto .container > div p:nth-child(4) {
+        font-size: 11px;
+    }
+    /* ============================== MANIFESTO end ========================= */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

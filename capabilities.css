@@ -1,0 +1,157 @@
+/* ======================================= pillar 1 start ================== */
+
+.pillar-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pillar-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+    align-items: center;
+    padding: 60px 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.pillar-section .container .left .section-title {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.pillar-section .container .left .section-subtext {
+    font-size: 15px;
+}
+
+
+.pillar-section .container .left > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.pillar-section .container .left > ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.pillar-section .container .left > ul li span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.pillar-section .container .right .card .inner-box {
+    background: #090B12;
+    border-radius: var(--radius-sm);
+    padding: 18px;
+    border: 1px solid var(--border-subtle);
+    margin-bottom: 16px;
+}
+
+.pillar-section .container .right .card .inner-box .head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pillar-section .container .right .card .inner-box .head > span:nth-child(1) {
+    color: white;
+    font-weight: 600;
+}
+
+.pillar-section .container .right .card .inner-box .head > span:nth-child(2) {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+}
+
+.pillar-section .container .right .card .inner-box .body {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: #94A3B8;
+}
+
+/* ======================================= pillar 1 end ================== */
+
+/* ======================================= pillar 2 start ================== */
+.pillar2-left .card .inner-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.pillar2-left .card .inner-cards .one-card {
+    background: #090B12;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.pillar2-left .card .inner-cards .one-card > div:nth-child(1) {
+    color: #10B981;
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.pillar2-left .card .inner-cards .one-card > div:nth-child(2) {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.pillar2-left .card .card-bottom-text {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+/* ======================================= pillar 2 end ================== */
+
+
+/* ======================================= tooling start ================== */
+.tooling-section .container .capa-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.tooling-section .container .capa-cards h4 {
+    font-family: var(--font-display);
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.tooling-section .container .capa-cards .card > div {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--cyan);
+}
+/* ======================================= tooling end ================== */
+
+
+
+
+
+
+
+
